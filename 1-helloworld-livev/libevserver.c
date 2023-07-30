@@ -93,7 +93,7 @@ void signal_cb(evutil_socket_t signal, short events, void *arg)
 
 int main(int argc, char **argv)
 {
-    // 1. Setup server
+    // 1. Setup server -------------- 1)
     int port = DEFAULT_PORT;
     int reuseaddr_on = 1;
     if (argc == 2)
